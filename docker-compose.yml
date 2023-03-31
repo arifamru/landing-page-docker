@@ -1,0 +1,8 @@
+version: "3.9"
+services: 
+  landingpage: 
+    build: 
+      context: .
+    ports: 
+      - 8080:80
+    image: landing-page:v.0.6
